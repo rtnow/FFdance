@@ -243,7 +243,7 @@ class Workspace:
             self.__dict__[k] = v
 
 
-@hydra.main(config_path='cfgs', config_name='camera_aug_config')
+@hydra.main(config_path='../cfgs', config_name='camera_aug_config')
 def main(cfg):
     print(cfg)
     from camera_train import Workspace as W
