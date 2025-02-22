@@ -1,12 +1,12 @@
 {
     "env": "ur5e_push",
-    "xml": "assets/scenes/ur5e/scene_push.xml",
+    "xml": "../ur5e/assets/scenes/scene_push.xml",
     "assets": [
-        "assets/scenes/ur5e/basic_scene.xml",
-        "assets/universal_robots_ur5e/ur5e_with_hand.xml",
-        "assets/scenes/assets",
-        "assets/universal_robots_ur5e/assets",
-        "assets/robotiq_2f85/assets"
+        "../ur5e/assets/scenes/basic_scene.xml",
+        "../ur5e/assets/universal_robots_ur5e/ur5e_with_hand.xml",
+        "../ur5e/assets/scenes/assets",
+        "../ur5e/assets/universal_robots_ur5e/assets",
+        "../ur5e/assets/robotiq_2f85/assets"
     ],
     "scheduler": {
         "type": "ExpScheduler",
