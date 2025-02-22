@@ -1,0 +1,3 @@
+Wed Feb 19 19:30:21 2025
+WARNING: mju_openResource: unknown file '/home/rtnow/RL-ViGen/envs/DMCVGB/dm_control/build/lib/dm_control/suite/mujoco_menagerie/franka_emika_panda//home/ysz/shared/mujoco_manipulation/mujoco_menagerie/franka_emika_panda/panda.xml'
+

@@ -1,0 +1,2 @@
+aux_contrastive_loss,aux_l2_loss,aux_l2_loss_layers,aux_lr,buffer_size,episode,episode_length,episode_reward,fps,frame,step,theta1_02,total_time
+0.0,0.0,0.0,9.999999999999961e-05,4500.0,9.0,500.0,0.07670099447558969,3.6720138922685925,4500,4500.0,0.0,136.16506600379944

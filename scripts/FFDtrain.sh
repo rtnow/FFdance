@@ -1,0 +1,20 @@
+task_name='ur5_lift'
+frames=801000
+use_wandb=False
+save_snapshot=True
+save_video=False
+use_traj=False
+multiview=True
+
+CUDA_VISIBLE_DEVICES=0  python FFD_train.py \
+                            task=${task_name} \
+                            seed=1 \
+                            use_wandb=${use_wandb} \
+                            num_train_frames=${frames} \
+                            save_snapshot=${save_snapshot}  \
+                            agent.aux_l2_coef=200 \
+                            agent.aux_coef=500 \
+                            agent.aux_latency=100000 \
+                            agent.multiview=True \
+                            use_traj=${use_traj} \
+                            wandb_group=$1
